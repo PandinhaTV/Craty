@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1781862998387526314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8504044829148791083}
+  - component: {fileID: 8110905277113361793}
+  m_Layer: 0
+  m_Name: Crates
+  m_TagString: Crate
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8504044829148791083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781862998387526314}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2910162, y: 1.0968127, z: -0.0055430494}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8110905277113361793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781862998387526314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b878b04f7a35e504285a2e62e126f22a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cratePrefab:
+  - {fileID: 674381044159062270, guid: e6097bc6f8d0840469302cf47af7e305, type: 3}
+  - {fileID: 6784569363407649260, guid: 2345ad0353d4f1d4c8214bc1a4433e66, type: 3}
+  - {fileID: 5104041126300655565, guid: a25883d54708901448f7618c2cb96628, type: 3}
+  - {fileID: 8741823806168817530, guid: 6d439d9386b9cf0459f1f1cb25dee2d8, type: 3}
+  - {fileID: 1123442051681727391, guid: 3c8e8a9522514c247be4a94e143a242b, type: 3}
+  - {fileID: 542591385535530897, guid: d0dda94c64ae28b43a6ceb5a1799c131, type: 3}
+  - {fileID: 5060996479941043116, guid: f15a73acc9c41aa4a8a6886c312627d7, type: 3}
+  - {fileID: 1788611675370569972, guid: 4224c1a2330dfca498d846bef2581e3e, type: 3}
+  - {fileID: 6125372182661901564, guid: 87e3041ce66020946a7be6ffe655363d, type: 3}
+  crateType: 0
+  diff: 0
+  secondSpawn: 0.5
+  minTransX: -10
+  maxTransX: 10
+  minTransY: -10
+  maxTransY: 10
